@@ -13,6 +13,10 @@ function Navbar() {
         <button>Home</button>
       </Link>
 
+      <Link to='/book'>
+        <button>Booking</button>
+      </Link>
+
       {isLoggedIn && (
         <>
           <Link to="/projects">

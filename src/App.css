@@ -13,6 +13,10 @@
   }
 }
 
+nav{
+  width: 90vw;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +32,10 @@
   color: #61dafb;
 }
 
+.rwdp-DayCircle.rwdp-flex-box.rwdp-flex-column{
+  border: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 600px) {
+
+  .rwdpDayPickerContainer {
+    max-width: 90vw;
+  }
+
+  
+
+
 }
